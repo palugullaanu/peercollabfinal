@@ -1,0 +1,102 @@
+/* FULL SCREEN BACKGROUND */
+.login-wrapper {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* CENTERED CARD */
+.login-card {
+  width: 380px;
+  padding: 40px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  animation: pop 0.5s ease-out;
+  text-align: center;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.85); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* BRAND TITLE */
+.brand {
+  font-size: 34px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center;
+   justify-content: center;
+  align-items: center;
+}
+
+.sub {
+  color: black;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+/* INPUTS */
+.input-box {
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: black;
+}
+
+/* ERROR BOX */
+.err {
+  background: rgba(255, 0, 0, 0.3);
+  color: #ffbaba;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  margin-top: 14px;
+  border-radius: 8px;
+  border: none;
+  background: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: white;
+}
+
+.btn-secondary {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white ;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background: #f3f3f3;
+}
